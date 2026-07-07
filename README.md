@@ -31,7 +31,16 @@ A web-based complaint management system that allows users to submit complaints a
    npm start
 
 ## 📷 Screenshots
+## 📷 Screenshots
 
+###  Home Page
+![Home](./screenshots/home.png)
+
+###  Complaint Form
+![Complaint Form](./screenshots/complaint-form.png)
+
+###  Dashboard
+![Dashboard](./screenshots/dashboard.png)
 
 ## 👨‍💻 Author
 Nithin NS
