@@ -31,7 +31,7 @@ A web-based complaint management system that allows users to submit complaints a
    npm start
 
 ## 📷 Screenshots
-(Add screenshots here later.)
+
 
 ## 👨‍💻 Author
 Nithin NS
