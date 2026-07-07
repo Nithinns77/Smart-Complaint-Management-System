@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  min-height: 100vh;
+}
+
+/* Container */
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Title */
+.title {
+  text-align: center;
+  color: white;
+  margin-bottom: 25px;
+}
+
+/* Glass card */
+.card-box {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 20px;
+  color: white;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+}
+
+/* Inputs */
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+/* Buttons */
+button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Button styles */
+.btn-primary {
+  background: #00c6ff;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #009ec3;
+}
+
+.btn-danger {
+  background: #ff4b5c;
+  color: white;
+}
+
+.btn-success {
+  background: #00d084;
+  color: white;
+}
+
+.btn-filter {
+  background: rgba(255,255,255,0.3);
+  color: white;
+  margin: 5px;
+}
+
+/* Dashboard cards */
+.dashboard {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.dashboard div {
+  flex: 1;
+  text-align: center;
+}
